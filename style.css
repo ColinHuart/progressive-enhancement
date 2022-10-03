@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.font {
+  font-family: serif;
+  word-spacing: 10px;
+  color: rgb(60, 58, 58);
+}
+a:visited {
+  color: green;
+  background-color: red;
+}
+
+a:hover {
+  color: hotpink;
+  background-color: blue;
+}
+.body {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: /*url(https://media.giphy.com/media/jp7jSyjNNz2ansuOS8/giphy.gif),*/
+    linear-gradient(22deg, rgb(202, 250, 191), rgb(111, 198, 41));
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  font-family: Ubuntu;
+}
+.Quote {
+  font-size: 160%;
+  background-color: rgb(232, 230, 230);
+  border-left: 0.25em solid gray;
+  padding: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-style: italic;
+}
+.QuoteDialogueV {
+  background-color: rgb(232, 230, 230);
+  border-left: 0.25em solid rgb(249, 0, 0);
+  padding: 10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-style: italic;
+}
+.QuoteDialogueF {
+  background-color: rgb(232, 230, 230);
+  border-left: 0.25em solid rgb(43, 17, 161);
+  padding: 10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-style: italic;
+}
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+img {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.bad {
+  color: red;
+}
+.good {
+  color: green;
+}
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+.blackBackground {
+  background-color: #333;
+  color: #fff;
+}
+h1 {
+  background-color: yellow;
+}
