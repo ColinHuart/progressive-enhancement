@@ -81,3 +81,16 @@ tfoot {
 h1 {
   background-color: yellow;
 }
+.notification {
+  background: #ffffdd;
+  padding: 0.5rem 1rem;
+  border: 3px solid #ddddcc;
+  width: 250px;
+  font-weight: bold;
+  color: #333300;
+  position: relative;
+  left: 75%;
+  top: 20px;
+  position: fixed;
+  z-index: 1;
+}
